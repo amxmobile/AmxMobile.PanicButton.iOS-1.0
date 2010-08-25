@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54B453C5122594CF00BF0FCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B453C4122594CF00BF0FCE /* UIKit.framework */; };
+		54B453C7122594CF00BF0FCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B453C6122594CF00BF0FCE /* Foundation.framework */; };
+		54B453C9122594CF00BF0FCE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B453C8122594CF00BF0FCE /* CoreGraphics.framework */; };
+		54B453CE122594CF00BF0FCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54B453CC122594CF00BF0FCE /* InfoPlist.strings */; };
+		54B453D0122594CF00BF0FCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B453CF122594CF00BF0FCE /* main.m */; };
+		54B453D3122594CF00BF0FCE /* PanicButtonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B453D2122594CF00BF0FCE /* PanicButtonAppDelegate.m */; };
+		54B453D6122594CF00BF0FCE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54B453D4122594CF00BF0FCE /* MainWindow.xib */; };
+		54B453D9122594CF00BF0FCE /* PanicButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B453D8122594CF00BF0FCE /* PanicButtonViewController.m */; };
+		54B453DC122594D000BF0FCE /* PanicButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54B453DA122594D000BF0FCE /* PanicButtonViewController.xib */; };
+		54B453EF1225994300BF0FCE /* RestRequestArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B453EE1225994300BF0FCE /* RestRequestArgs.m */; };
+		54B453F312259A0300BF0FCE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B453F212259A0300BF0FCE /* libxml2.dylib */; };
+		54B453FC12259C0000BF0FCE /* ServiceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B453FB12259C0000BF0FCE /* ServiceBase.m */; };
+		54B453FF12259C0C00BF0FCE /* PanicService.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B453FE12259C0C00BF0FCE /* PanicService.m */; };
+		54B454181225A8BB00BF0FCE /* DownloadBucket.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B454171225A8BB00BF0FCE /* DownloadBucket.m */; };
+		54B454321225AF0000BF0FCE /* FlatXmlBucket.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B454311225AF0000BF0FCE /* FlatXmlBucket.m */; };
+		54B4543F1225B13A00BF0FCE /* ErrorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B4543E1225B13A00BF0FCE /* ErrorHelper.m */; };
+		54B454421225B14700BF0FCE /* MessageBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B454411225B14700BF0FCE /* MessageBox.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		54B453C1122594CF00BF0FCE /* PanicButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanicButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54B453C4122594CF00BF0FCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		54B453C6122594CF00BF0FCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		54B453C8122594CF00BF0FCE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		54B453CA122594CF00BF0FCE /* PanicButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PanicButton-Info.plist"; sourceTree = "<group>"; };
+		54B453CB122594CF00BF0FCE /* PanicButton_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanicButton_Prefix.pch; sourceTree = "<group>"; };
+		54B453CD122594CF00BF0FCE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		54B453CF122594CF00BF0FCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54B453D1122594CF00BF0FCE /* PanicButtonAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanicButtonAppDelegate.h; sourceTree = "<group>"; };
+		54B453D2122594CF00BF0FCE /* PanicButtonAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanicButtonAppDelegate.m; sourceTree = "<group>"; };
+		54B453D5122594CF00BF0FCE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		54B453D7122594CF00BF0FCE /* PanicButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanicButtonViewController.h; sourceTree = "<group>"; };
+		54B453D8122594CF00BF0FCE /* PanicButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanicButtonViewController.m; sourceTree = "<group>"; };
+		54B453DB122594D000BF0FCE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PanicButtonViewController.xib; sourceTree = "<group>"; };
+		54B453ED1225994300BF0FCE /* RestRequestArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestRequestArgs.h; sourceTree = "<group>"; };
+		54B453EE1225994300BF0FCE /* RestRequestArgs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestRequestArgs.m; sourceTree = "<group>"; };
+		54B453F212259A0300BF0FCE /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		54B453FA12259C0000BF0FCE /* ServiceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceBase.h; sourceTree = "<group>"; };
+		54B453FB12259C0000BF0FCE /* ServiceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceBase.m; sourceTree = "<group>"; };
+		54B453FD12259C0C00BF0FCE /* PanicService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanicService.h; sourceTree = "<group>"; };
+		54B453FE12259C0C00BF0FCE /* PanicService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanicService.m; sourceTree = "<group>"; };
+		54B4540012259C1B00BF0FCE /* MyClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClasses.h; sourceTree = SOURCE_ROOT; };
+		54B454161225A8BB00BF0FCE /* DownloadBucket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadBucket.h; sourceTree = "<group>"; };
+		54B454171225A8BB00BF0FCE /* DownloadBucket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadBucket.m; sourceTree = "<group>"; };
+		54B454301225AF0000BF0FCE /* FlatXmlBucket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatXmlBucket.h; sourceTree = "<group>"; };
+		54B454311225AF0000BF0FCE /* FlatXmlBucket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatXmlBucket.m; sourceTree = "<group>"; };
+		54B4543D1225B13A00BF0FCE /* ErrorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorHelper.h; sourceTree = SOURCE_ROOT; };
+		54B4543E1225B13A00BF0FCE /* ErrorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorHelper.m; sourceTree = SOURCE_ROOT; };
+		54B454401225B14700BF0FCE /* MessageBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageBox.h; sourceTree = SOURCE_ROOT; };
+		54B454411225B14700BF0FCE /* MessageBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageBox.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54B453BE122594CF00BF0FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B453C5122594CF00BF0FCE /* UIKit.framework in Frameworks */,
+				54B453C7122594CF00BF0FCE /* Foundation.framework in Frameworks */,
+				54B453C9122594CF00BF0FCE /* CoreGraphics.framework in Frameworks */,
+				54B453F312259A0300BF0FCE /* libxml2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54B453B2122594CF00BF0FCE = {
+			isa = PBXGroup;
+			children = (
+				54B453B9122594CF00BF0FCE /* Classes */,
+				54B453BA122594CF00BF0FCE /* Other Sources */,
+				54B453BB122594CF00BF0FCE /* Resources */,
+				54B453BC122594CF00BF0FCE /* Frameworks */,
+				54B453C2122594CF00BF0FCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54B453B9122594CF00BF0FCE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				54B454401225B14700BF0FCE /* MessageBox.h */,
+				54B454411225B14700BF0FCE /* MessageBox.m */,
+				54B4543D1225B13A00BF0FCE /* ErrorHelper.h */,
+				54B4543E1225B13A00BF0FCE /* ErrorHelper.m */,
+				54B4540012259C1B00BF0FCE /* MyClasses.h */,
+				54B453EC1225993100BF0FCE /* Services */,
+				54B453D1122594CF00BF0FCE /* PanicButtonAppDelegate.h */,
+				54B453D2122594CF00BF0FCE /* PanicButtonAppDelegate.m */,
+				54B453D7122594CF00BF0FCE /* PanicButtonViewController.h */,
+				54B453D8122594CF00BF0FCE /* PanicButtonViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		54B453BA122594CF00BF0FCE /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				54B453CB122594CF00BF0FCE /* PanicButton_Prefix.pch */,
+				54B453CF122594CF00BF0FCE /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		54B453BB122594CF00BF0FCE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				54B453CA122594CF00BF0FCE /* PanicButton-Info.plist */,
+				54B453CC122594CF00BF0FCE /* InfoPlist.strings */,
+				54B453D4122594CF00BF0FCE /* MainWindow.xib */,
+				54B453DA122594D000BF0FCE /* PanicButtonViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		54B453BC122594CF00BF0FCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54B453C4122594CF00BF0FCE /* UIKit.framework */,
+				54B453F212259A0300BF0FCE /* libxml2.dylib */,
+				54B453C6122594CF00BF0FCE /* Foundation.framework */,
+				54B453C8122594CF00BF0FCE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54B453C2122594CF00BF0FCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54B453C1122594CF00BF0FCE /* PanicButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54B453EC1225993100BF0FCE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				54B454301225AF0000BF0FCE /* FlatXmlBucket.h */,
+				54B454311225AF0000BF0FCE /* FlatXmlBucket.m */,
+				54B454161225A8BB00BF0FCE /* DownloadBucket.h */,
+				54B454171225A8BB00BF0FCE /* DownloadBucket.m */,
+				54B453FD12259C0C00BF0FCE /* PanicService.h */,
+				54B453FE12259C0C00BF0FCE /* PanicService.m */,
+				54B453FA12259C0000BF0FCE /* ServiceBase.h */,
+				54B453FB12259C0000BF0FCE /* ServiceBase.m */,
+				54B453ED1225994300BF0FCE /* RestRequestArgs.h */,
+				54B453EE1225994300BF0FCE /* RestRequestArgs.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54B453C0122594CF00BF0FCE /* PanicButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54B453DF122594D000BF0FCE /* Build configuration list for PBXNativeTarget "PanicButton" */;
+			buildPhases = (
+				54B453BD122594CF00BF0FCE /* Sources */,
+				54B453BE122594CF00BF0FCE /* Frameworks */,
+				54B453BF122594CF00BF0FCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PanicButton;
+			productName = PanicButton;
+			productReference = 54B453C1122594CF00BF0FCE /* PanicButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54B453B4122594CF00BF0FCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "AMX Software Ltd";
+			};
+			buildConfigurationList = 54B453B7122594CF00BF0FCE /* Build configuration list for PBXProject "PanicButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 54B453B2122594CF00BF0FCE;
+			productRefGroup = 54B453C2122594CF00BF0FCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54B453C0122594CF00BF0FCE /* PanicButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54B453BF122594CF00BF0FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B453CE122594CF00BF0FCE /* InfoPlist.strings in Resources */,
+				54B453D6122594CF00BF0FCE /* MainWindow.xib in Resources */,
+				54B453DC122594D000BF0FCE /* PanicButtonViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54B453BD122594CF00BF0FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B453D0122594CF00BF0FCE /* main.m in Sources */,
+				54B453D3122594CF00BF0FCE /* PanicButtonAppDelegate.m in Sources */,
+				54B453D9122594CF00BF0FCE /* PanicButtonViewController.m in Sources */,
+				54B453EF1225994300BF0FCE /* RestRequestArgs.m in Sources */,
+				54B453FC12259C0000BF0FCE /* ServiceBase.m in Sources */,
+				54B453FF12259C0C00BF0FCE /* PanicService.m in Sources */,
+				54B454181225A8BB00BF0FCE /* DownloadBucket.m in Sources */,
+				54B454321225AF0000BF0FCE /* FlatXmlBucket.m in Sources */,
+				54B4543F1225B13A00BF0FCE /* ErrorHelper.m in Sources */,
+				54B454421225B14700BF0FCE /* MessageBox.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		54B453CC122594CF00BF0FCE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54B453CD122594CF00BF0FCE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		54B453D4122594CF00BF0FCE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54B453D5122594CF00BF0FCE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		54B453DA122594D000BF0FCE /* PanicButtonViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54B453DB122594D000BF0FCE /* en */,
+			);
+			name = PanicButtonViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54B453DD122594D000BF0FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		54B453DE122594D000BF0FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/libxml2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+		54B453E0122594D000BF0FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PanicButton_Prefix.pch;
+				INFOPLIST_FILE = "PanicButton-Info.plist";
+				PRODUCT_NAME = PanicButton;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		54B453E1122594D000BF0FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PanicButton_Prefix.pch;
+				INFOPLIST_FILE = "PanicButton-Info.plist";
+				PRODUCT_NAME = PanicButton;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54B453B7122594CF00BF0FCE /* Build configuration list for PBXProject "PanicButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54B453DD122594D000BF0FCE /* Debug */,
+				54B453DE122594D000BF0FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54B453DF122594D000BF0FCE /* Build configuration list for PBXNativeTarget "PanicButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54B453E0122594D000BF0FCE /* Debug */,
+				54B453E1122594D000BF0FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54B453B4122594CF00BF0FCE /* Project object */;
+}
